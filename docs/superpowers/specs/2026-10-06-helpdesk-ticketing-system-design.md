@@ -153,15 +153,27 @@ Admin dashboards show ticket totals by status, total users, support staff, a sim
 
 ### User Experience
 
-The user reference informs a friendlier, mobile-first portal with:
+The replacement customer-support portal reference informs a welcoming, responsive web experience with:
 
-- A blue-led palette, generous rounded cards, and clear primary actions.
-- A responsive bottom navigation on small screens and an expanded desktop layout on larger screens.
+- A sticky top navigation, wide welcome area, clear action cards, and a balanced desktop content width.
 - Personal ticket summaries, recent requests, readable progress, and conversation-oriented ticket details.
-- A guided ticket-creation flow that captures category, subject, description, priority, and an optional attachment while preserving server-side validation.
+- A focused ticket-creation form that captures category, subject, description, priority, and an optional attachment while preserving server-side validation.
+- A two-column ticket-detail layout on larger screens that places the conversation beside ticket metadata and collapses cleanly on mobile.
 - The same light/dark theme behavior and accessibility standards as the staff/admin interface.
 
-The user interface will not remain constrained to the reference's narrow phone-sized column on desktop. It will expand into a balanced content layout while preserving the reference's approachable hierarchy. FAQ, billing, feature-request, and knowledge-base functionality shown in the reference is outside the approved scope and will not be implemented automatically.
+The user portal uses a calm nature palette instead of the reference's indigo/pink branding:
+
+- Primary forest green: `#2F7D4A`.
+- Deep hover green: `#25663C`.
+- Soft sage page background: `#F2F7F3`.
+- Pale green interactive highlight: `#E2F1E6`.
+- Dark green text: `#173023`.
+- Muted green-gray text: `#65786C`.
+- Dark-mode page background: `#0D1F16`.
+- Dark-mode card surface: `#142B1E`.
+- Dark-mode accent green: `#68C985`.
+
+The reference's knowledge-base search and article sections are replaced with approved HelpDesk functionality: ticket search, status summaries, recent tickets, and prominent ticket-creation actions. Billing, feature-request, response-time, support-hours, and knowledge-base claims are not added without supporting requirements and real application data.
 
 ### Shared Role Data
 
